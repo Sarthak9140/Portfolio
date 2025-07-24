@@ -1,0 +1,28 @@
+.project-slider {
+  padding: 3rem 2rem;
+  text-align: center; // Center the heading text
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+
+    span {
+      color: #3498db;
+      transition: color 0.3s ease;
+    }
+
+    &:hover span {
+      color: #2c80b4; // Slightly darker on hover
+    }
+  }
+
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
